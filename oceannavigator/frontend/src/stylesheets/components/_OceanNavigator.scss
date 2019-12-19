@@ -42,7 +42,7 @@ body {
 
     @media (min-width: 600px) {
         .LayerOptions {
-            
+           width: 100%; 
         }
     }
 
@@ -201,13 +201,6 @@ body {
             flex: 1 1 auto;
         }
     }
-
-    @media (max-width: 600px) {
-        > .content {
-            left: 100%;
-        }
-    }
-
 }
 
 .checkbox, .alert, .control-label {
