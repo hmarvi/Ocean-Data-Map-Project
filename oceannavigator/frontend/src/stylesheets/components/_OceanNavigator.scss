@@ -182,7 +182,7 @@ body {
 
     }
 
-    @media (min-width: 600px) {
+    @media (max-width: 600px) {
         > .content {
             left: 100%;
         }
@@ -212,6 +212,11 @@ body {
     font-size: 95%;
 }
 
+@media (max-width: 600px) {
+    .content.open {
+        left: 100%;
+    }
+}
 // Moves content to the right to fit sidebar
 .content.open {
     left: $sidebar-width;
