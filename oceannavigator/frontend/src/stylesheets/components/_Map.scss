@@ -208,9 +208,9 @@
     .time_container_compare {
         height: fit-content;
         width: 99%;
-        top: calc(100% - 60px);
+        bottom: 0px;
         left: 1%;
-        position: relative;
+        position: absolute;
         border-radius: 25px;
 
         .timeLayerContainer {
