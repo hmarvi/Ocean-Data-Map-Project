@@ -757,7 +757,7 @@ export default class MapToolbar extends React.Component {
         <Navbar.Header>
           <Navbar.Brand>
             <a href="#" onClick={this.props.toggleSidebar} >
-              <Icon icon="bars" /> {_("Toggle Sidebar")}
+              <Icon icon="bars" />
             </a>
           </Navbar.Brand>
           <Navbar.Toggle />
