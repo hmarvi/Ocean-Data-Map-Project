@@ -181,6 +181,12 @@ body {
         }
 
     }
+
+    @media (min-width: 600px) {
+        > .content {
+            left: 100%;
+        }
+    }
     > .content {
         position: absolute;
         top: 0;
