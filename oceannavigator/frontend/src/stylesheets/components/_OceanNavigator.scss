@@ -182,11 +182,7 @@ body {
 
     }
 
-    @media (max-width: 600px) {
-        > .content {
-            left: 100%;
-        }
-    }
+    
     > .content {
         position: absolute;
         top: 0;
@@ -203,6 +199,12 @@ body {
 
         .Map {
             flex: 1 1 auto;
+        }
+    }
+
+    @media (max-width: 600px) {
+        > .content {
+            left: 100%;
         }
     }
 
