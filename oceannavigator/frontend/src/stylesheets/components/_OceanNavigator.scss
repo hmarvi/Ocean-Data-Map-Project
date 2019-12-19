@@ -212,15 +212,17 @@ body {
     font-size: 95%;
 }
 
+// Moves content to the right to fit sidebar
+.content.open {
+    left: $sidebar-width;
+}
+
 @media (max-width: 600px) {
     .content.open {
         left: 100%;
     }
 }
-// Moves content to the right to fit sidebar
-.content.open {
-    left: $sidebar-width;
-}
+
 
 .permalink-modal {
     textarea {
